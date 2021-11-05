@@ -1,11 +1,109 @@
 .fondo1
   background: url('../assets/curso/fondo1.png')
+  background-position: bottom
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+.fondo2
+  background: url('../assets/curso/tema1/fondo2.svg')
   background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+
+.fondo3
+  background: url('../assets/curso/fondo1.png')
+  background-position: bottom
   background-size: auto
   background-repeat: no-repeat
   margin-inline: -3.4rem
 
+.fondo4
+  background: url('../assets/curso/tema2/fondo4.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+
+.fondo-figuras
+  background: url('../assets/curso/tema2/fondo-figuras.svg')
+  background-position: left bottom
+  background-size: auto
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+
+
+.cajon.color-primario 
+  background-color: #C7D2F9
+
+
+.tarjeta-avatar > img
+  top: 20px
+
+.bloque-texto-c.color-secundario 
+  background-color: #00bab552
+.bloque-texto-c i 
+  color: #FF0092
+
+.bloque-texto-c:after 
+  content: ''
+  display: block
+  width: 0px
+  height: 0px
+  background-color: #ffffff49
+  position: relative
+  left: calc(0% - 0px)
+
+.size-left--comilla.fa-quote-left
+  font-size: 116px
+
+
+
+.linea-rosa
+    height: 5px
+    width: 45%
+    background-color: #F4C0DE
+    border-radius: 50px
+
+.cajon-redondeado
+  background-color: #DDFAF9
+  border-radius: 100px
+  position: relative
+  margin-bottom: 20rem
+
+.contajetas-imagenes
+  position: relative
+
+.tarjetas-imagen
+  position: absolute
+  top: 85%
+  left: 50%
+  width: 1000px
+  transform: translate(-50%, 0%)
+
+
 @media screen and ( max-width: 992px)
-  .fondo1
-    //, .fondo2, .fondo3, .fondo4, .fondo-gradiente
+  .fondo1, .fondo2, .fondo4
     margin-inline: -1.4rem
+  .fondo3
+    margin-inline: -1.4rem
+    background-size: cover
+  .fondo-figuras
+    margin-inline: -1.4rem
+    background-size: auto
+    background-position: center bottom
+
+  .size-left--comilla.fa-quote-left
+    font-size: 80px
+  .linea-rosa
+    width: 70%
+  
+  .cajon-redondeado
+    border-radius: 50px
+    margin-bottom: 0rem
+  .tarjetas-imagen
+    position: relative
+    top: 0
+    left: 0
+    width: auto
+    transform: translate(0%, 0%)

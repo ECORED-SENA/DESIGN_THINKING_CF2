@@ -17,7 +17,7 @@
       .col-lg-11
         h5 Recordemos las fases que componen la metodología del Design Thinking:
 
-    .row.justify-content-center.fondo1.mb-4
+    .row.justify-content-center.mb-4.fondo1
       .col-lg-12.px-md-5.mt-5
         .row.justify-content-center.mb-4
           .col-lg-10
@@ -47,7 +47,6 @@
 
 
 </template>
-
 <script>
 export default {
   name: 'Introduccion',
