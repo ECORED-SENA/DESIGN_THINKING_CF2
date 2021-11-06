@@ -32,6 +32,13 @@
   background-repeat: no-repeat
   margin-inline: -3.4rem
 
+.fondo-diagonal
+  background: url('../assets/curso/tema3/fondo-diagonal.png')
+  background-position: left bottom
+  background-size: auto
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+
 
 .cajon.color-primario 
   background-color: #C7D2F9
@@ -81,11 +88,30 @@
   width: 1000px
   transform: translate(-50%, 0%)
 
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after, .img-infografica.color-secundario .img-infografica-b__item__dot:before, .img-infografica.color-secundario .img-infografica-b__item__dot:after, .img-infografica-b.color-secundario .img-infografica__item__dot:before, .img-infografica-b.color-secundario .img-infografica__item__dot:after, .img-infografica-b.color-secundario .img-infografica-b__item__dot:before, .img-infografica-b.color-secundario .img-infografica-b__item__dot:after
+  background-color: #FF0092
+
+.tabla-b.color-primario .tabla-b__header
+  border-top: 4px solid #ff0092
+  background-color: #F6F6F6
+
+.tarjeta.tarjeta--azul
+  border-radius: 0
+
+.tabs-a__tab 
+  background-color: #f6f6f6
+
+.tarjeta.color-gradiente
+  border-radius: 8px
+  background: linear-gradient(90deg, #FC1892  0%, rgba(38,81,225,1))
+
+
+
 
 @media screen and ( max-width: 992px)
   .fondo1, .fondo2, .fondo4
     margin-inline: -1.4rem
-  .fondo3
+  .fondo3, .fondo-diagonal
     margin-inline: -1.4rem
     background-size: cover
   .fondo-figuras

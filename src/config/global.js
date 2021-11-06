@@ -56,14 +56,14 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Fase de ideación',
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Herramientas para la divergencia',
@@ -84,7 +84,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Herramientas para la convergencia',

@@ -103,7 +103,7 @@
           h5 Figura 3
           p.mb-0 <em>Estructura gramatical de un reto de innovación</em>
 
-    .row.justify-content-center.fondo-figuras.mb-5
+    .row.justify-content-center.fondo-figuras.mb-0
       .col-lg-10
         .contajetas-imagenes
           .p-5.text-center.cajon-redondeado(style='')
@@ -120,17 +120,17 @@
             .row.justify-content-center
               .col-lg-10
                 .row.justify-content-center
-                  .col-auto.px-lg-1.mb-4
+                  .col-auto.px-lg-1.mb-4(data-aos='flip-up')
                     figure
                       img.mx-auto(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop' style='width:203px')
                       
-                  .col-auto.px-lg-1.mb-4
+                  .col-auto.px-lg-1.mb-4(data-aos='flip-up')
                     figure
                       img.mx-auto(src='@/assets/curso/tema2/img6.svg' alt='AvatarTop' style='width:203px')
-                  .col-auto.px-lg-1.mb-4
+                  .col-auto.px-lg-1.mb-4(data-aos='flip-up')
                     figure
                       img.mx-auto(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop' style='width:203px')
-                  .col-auto.px-lg-1.mb-4
+                  .col-auto.px-lg-1.mb-4(data-aos='flip-up')
                     figure
                       img.mx-auto(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop' style='width:203px')
                   
@@ -142,7 +142,129 @@
       figcaption Nota. Adaptada de Clos (2016).
 
 
-    
+    .row.justify-content-center
+      .col-lg-12.pt-4.px-lg-0(style= "background-color: #F6F5FF")
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-lg-0.align-self-center
+            ul.lista-ul
+              li 
+                i.fas.fa-check(style='color: #FF0092')
+                p.mb-0 
+                  b Técnica How might we?
+            p.mb-4 Otra manera de formular el reto puede ser iniciando con la expresión How might we? Que en español traduce ¿cómo podríamos…? Seguido del problema a solucionar y especificando el tipo del usuario para el cual se diseñará la solución. 
+              
+            .cajon.color-primario.p-4
+              p.mb-0 La formulación del reto es un proceso iterativo, y que de entrada no se conseguirá el reto ideal, por eso se recomienda redactar el reto de maneras distintas hasta que se encuentre una con la cual sentirse cómodo, que emocione, inspire a ponerse en marcha y conecte a las personas con las oportunidades de solución.
+          .col-8.col-lg-5
+            figure
+              img.mx-auto(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop' style='width:420px')
+          
+        separador
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            ul.lista-ul
+              li 
+                i.fas.fa-check(style='color: #FF0092')
+                p.mb-0
+                  b ¿Cómo encontrar retos de innovación?
+            
+            p.mb-4 Las técnicas mencionadas anteriormente se aplican cuando la organización tiene previamente identificadas unas problemáticas puntuales, sin embargo, surge la duda de cómo y dónde se pueden encontrar retos de innovación. 
+            p.mb-0 En la siguiente figura se enlistan varias fuentes donde se pueden encontrar retos de innovación que involucran al usuario, la competencia, el mercado, las nuevas tendencias tecnológicas o de consumidor o la detección de oportunidades dentro de la misma organización 
+            
+        .row.justify-content-center.mb-5
+          .col-auto(data-aos='fade-up')
+            ImagenInfografica.color-secundario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img.mx-auto(src='@/assets/curso/tema2/img10.svg', alt='retos de innocación' style='width: 811px')
+              
+              .tarjeta.tarjeta--gris.p-3(x="47.5%" y="10%" numero="" style='border-radius: 0; background-color: #ffff')
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Económicas
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Funcionales
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Sociales
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Emocionales
+                  
+                  
+              .tarjeta.tarjeta--gris.p-3(x="14%" y="50%" numero="" style='border-radius: 0; background-color: #ffff')
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Envejecimiento de Sociedad
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Robotización del Trabajo
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Cambio Climático
+                
+              .tarjeta.tarjeta--gris.p-3(x="82%" y="50%" numero="" style='border-radius: 0; background-color: #ffff')
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Competidores  
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0  Nuevas tecnologías
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Nuevas Leyes 
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Cambios en expectativas de clientes y usuarios
+                
+              .tarjeta.tarjeta--gris.p-3(x="20%" y="87%" numero="" style='border-radius: 0; background-color: #ffff')
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Aplicaciones Móviles 
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Economía Colaborativa
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Digitalización
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Economía de Emociones
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Simplicidad y Significado
+                
+                
+              .tarjeta.tarjeta--gris.p-3(x="75%" y="87%" numero="" style='border-radius: 0; background-color: #ffff')
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Objetivos estratégicos     
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Quejas de usuarios
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Identificar oportunidades de mejora internas
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Recursos infrautilizados
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 Proyectos innovadores de otras organizaciones
+                  li 
+                    i.fas.fa-angle-right(style='color: #FF0092')
+                    p.mb-0 similares a la nuestra
+                
+                
+        figcaption Nota. Adaptada de Clos (2016).
+
+
 
 
 
