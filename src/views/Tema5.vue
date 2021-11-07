@@ -86,9 +86,13 @@
             
         .row.justify-content-center.mb-5
           .col-lg-7.mb-4.mb-lg-0
-            .bloque-texto-custom.p-5.pe-4.pb-4
-              i.fas.fa-quote-left
-              p Es la capacidad de generar nuevas ideas y conceptos o nuevas asociaciones entre ideas ya conocidas y que llevan a nuevas conclusiones o soluciones originales y valiosas.
+            .contenedor-bloque
+              .bloque-imagen
+                figure
+                  img.mx-auto(src='@/assets/curso/tema5/img3.svg' alt='imagen ambiental' style='')
+              .bloque-texto-custom--img.p-5.pe-4.pb-4
+                i.fas.fa-quote-left
+                p Es la capacidad de generar nuevas ideas y conceptos o nuevas asociaciones entre ideas ya conocidas y que llevan a nuevas conclusiones o soluciones originales y valiosas.
             
           .col-lg-5
             .bloque-texto-custom.p-5.pe-4.pb-4
@@ -96,8 +100,117 @@
               p Es un proceso mental que nace de la imaginación y se desarrolla con el tiempo caracterizado por la originalidad, adaptabilidad y sus posibilidades de realización. 
 
 
+    separador
+    #t_5_2.titulo-segundo.color-acento-contenido
+      .h2 5.2 Técnicas de generación de ideas
 
-
+    p.mb-4 Ahora, se exponen las técnicas de generación de ideas
+    
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5.px-md-5(titulo="Plussing" :icono="require('@/assets/curso/tema5/icon2.svg')" style="background-color: #EBF7FF")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Celebrate your failures 1
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              
+      .py-4.py-md-5.px-md-5(titulo="Story Telling" :icono="require('@/assets/curso/tema5/icon3.svg')" style="background-color: #EBF7FF")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 
+            p 
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              
+      .py-4.py-md-5.px-md-5(titulo="Seis Sombreros " :icono="require('@/assets/curso/tema5/icon4.svg')" style="background-color: #EBF7FF")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 
+            p 
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              
+      .py-4.py-md-5.px-md-5(titulo="Brainstorming" :icono="require('@/assets/curso/tema5/icon5.svg')" style="background-color: #EBF7FF")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 
+            p 
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              
+      .py-4.py-md-5.px-md-5(titulo="Scamper" :icono="require('@/assets/curso/tema5/icon6.svg')" style="background-color: #EBF7FF")
+        .row.justify-content-center
+          h4 Scamper
+          p.mb-5 Esta técnica de ideación, es utilizada para desarrollar o mejorar ideas, productos o servicios. El acrónimo Scamper se compone de las siguientes palabras.
+          .col-md-7.mb-4.mb-md-0
+              
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-primario.align-self-center(style="border-radius: 0")
+                .p-2
+                  h4.mb-1.text-white Sustituir
+                  p.mb-1.text-white ¿Qué podemos reemplazar? 
+                  p.mb-0.text-white Ejemplo: materiales, componente, colores, formas, usos.
+                    
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-secundario
+                .p-4
+                  h2 John Doe
+                  p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                    
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-4
+                  h2 John Doe
+                  p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                    
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2 John Doe
+                  p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                    
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-secundario
+                .p-4
+                  h2 John Doe
+                  p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                    
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-acento-contenido
+                .p-4
+                  h2 John Doe
+                  p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                    
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2 John Doe
+                  p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+                    
+          
 
 
 

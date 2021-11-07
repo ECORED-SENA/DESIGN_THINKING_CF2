@@ -144,6 +144,44 @@
   font-size: 2.5em
   color: #FF0092
 
+//cuadro texto con imagen
+
+.contenedor-bloque
+  position: relative
+  display: flex
+  justify-content: end
+  
+
+.bloque-imagen
+  position: absolute
+  top: 50%
+  left: 0
+  transform: translate(0%, -50%)
+  width: 35%
+  
+
+.bloque-texto-custom--img
+  background-color: #fff
+  width: 70%
+  
+  
+
+.bloque-texto-custom--img:after 
+  content: ""
+  display: block
+  width: 30px
+  height: 30px
+  background-color: #FF0092
+  position: relative
+  left: calc(100% - 30px)
+
+.bloque-texto-custom--img i 
+  font-size: 2.5em
+  color: #FF0092
+
+////end bloqe texto con imagen
+
+
 @media screen and ( max-width: 992px)
   .fondo1, .fondo2, .fondo4
     margin-inline: -1.4rem
