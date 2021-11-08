@@ -13,10 +13,10 @@
       .col-lg-12.px-md-5.mt-5
           
         
-        .row.justify-content-around.mb-5
+        .row.justify-content-around(style='margin-bottom: 100px')
           .col-4
           .col-lg-6
-            .bloque-texto-c.color-secundario.mx-auto(style='position: relative; padding-left: 4rem; padding-right: 2rem; padding-top: 2rem; padding-bottom: 2rem; ' )
+            .bloque-texto-c.color-secundario.prueba.mx-auto(style='' )
               .cajon-padre--img
                 figure
                   img.mx-auto(src='@/assets/curso/tema2/img1.png' alt='AvatarTop')
@@ -88,7 +88,7 @@
             figure
               img.mx-auto(src='@/assets/curso/tema2/img4.svg' alt='AvatarTop' style='')
               
-      figcaption Nota. Adaptada de Clos (2016).
+      figcaption.px-5 Nota. Adaptada de Clos (2016).
 
 
 
@@ -152,7 +152,7 @@
             p.text-center
               b ¿Cómo + mejorar + la experiencia + de los clientes más jóvenes en las oficinas bancarias + para aumentar el número de transacciones?
         
-      figcaption Nota. Adaptada de Clos (2016).
+      figcaption.px-5 Nota. Adaptada de Clos (2016).
 
 
     .row.justify-content-center

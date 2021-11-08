@@ -134,9 +134,10 @@
               img.mx-auto(src='@/assets/curso/tema6/img7.svg', alt='imagen ambiental' style=" width: 592px;")
 
     .row.justify-content-center.mb-5(style='background-color: #214BE5')
-      .col-lg-auto
+      .col-lg-auto.align-self-end
         figure
           img.mx-auto(src='@/assets/curso/tema6/img8.svg', alt='imagen ambiental' style='width: 530px')
+        
       .col-lg.align-self-center(style='background-color: #F6F5FF;')
           
         .p-5

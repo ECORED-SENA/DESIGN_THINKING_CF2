@@ -9,7 +9,7 @@
       h1 Evaluación de retos
 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0.align-self-center
         p.mb-4 Antes de lanzar de manera masiva el reto de innovación, se debe verificar que cumpla con características básicas que permitan que el reto sea entendido y acogido por los solucionadores de la organización. 
         .cajon.color-primario.p-4
