@@ -12,7 +12,20 @@
     .row.justify-content-center.fondo3
       .col-lg-12.px-md-5.mt-5
           
-        .row.justify-content-center.mb-5
+        
+        .row.justify-content-around.mb-5
+          .col-4
+          .col-lg-6
+            .bloque-texto-c.color-secundario.mx-auto(style='position: relative; padding-left: 4rem; padding-right: 2rem; padding-top: 2rem; padding-bottom: 2rem; ' )
+              .cajon-padre--img
+                figure
+                  img.mx-auto(src='@/assets/curso/tema2/img1.png' alt='AvatarTop')
+              i.fas.fa-quote-left
+              p.mb-2 Según la Real Academia Española – RAE, una de las definiciones de reto es 
+                b “objetivo o empeño difícil de llevar a cabo, y que constituye por ello un estímulo y un desafío para quien lo afronta”, 
+                b-none  lo que lleva a pensar que debe ser algo que represente una pregunta que anime y lleve a actuar a las personas, sin embargo, su planteamiento atractivo no es la única clave, pues este debe mover a las personas desde lo emocional. 
+                
+        //.row.justify-content-center.mb-5
           .col-8.col-lg-5.mb-4.mb-lg-0.align-self-center
             figure
               img.mx-auto(src='@/assets/curso/tema2/img1.png' alt='AvatarTop')
