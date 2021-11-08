@@ -109,7 +109,7 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5.px-md-5(titulo="Plussing" :icono="require('@/assets/curso/tema5/icon2.svg')" style="background-color: #EBF7FF")
         .row.justify-content-center
-          h4 Plussing
+          h4 <em>Plussing</em>
           p Esta técnica consiste en trabajar con ideas previamente concebidas o generadas en otros procesos de creatividad, permite realizar una reunión con los demás miembros del equipo y mejorar la idea a través del sano debate y la crítica constructiva.
             
           .col-md-7.mb-4.mb-md-0.align-self-center
@@ -125,7 +125,7 @@
             figure
               img.mx-auto(src='@/assets/curso/tema5/img5.svg', alt='imagen ambiental', style='width: 357px')
               
-      .py-4.py-md-5.px-md-5(titulo="Story Telling" :icono="require('@/assets/curso/tema5/icon3.svg')" style="background-color: #EBF7FF")
+      .py-4.py-md-5.px-md-5(titulo="Storytelling" :icono="require('@/assets/curso/tema5/icon3.svg')" style="background-color: #EBF7FF")
         .row
             
           .col-7.col-md-7.mb-4.mb-md-0
@@ -133,7 +133,7 @@
               img.mx-auto(src='@/assets/curso/tema5/img6.svg', alt='imagen ambiental', style='width: 495px')
                 
           .col-md-5.align-self-center
-            h4 Story Telling
+            h4 <em>Storytelling</em>
             p.mb-4 Consiste en contar historias en un contexto específico con elementos, personajes y ambiente seleccionados; la idea es construir una historia con su inicio, medio y fin con el objetivo de transmitir un mensaje con ideas al azar para iniciar los procesos de creatividad. Esta técnica, también es usada en las últimas fases para transmitir la idea de manera inspiradora al usuario final.
             .cajon.color-primario.p-4
               p.mb-1 #[strong Recursos: ] mensaje, ambiente, personajes.
@@ -167,10 +167,10 @@
               
       .py-4.py-md-5.px-md-5(titulo="Brainstorming" :icono="require('@/assets/curso/tema5/icon5.svg')" style="background-color: #EBF7FF")
         .row.justify-content-center
-          h4 Brainstorming
+          h4 <em>Brainstorming</em>
           p.mb-4 Es la técnica más utilizada para los procesos de ideación y es también llamada lluvia de ideas, su objetivo principal es llevar al grupo a romper las limitaciones comunes del pensamiento y producir gran cantidad de ideas de las que pueden escoger después, esta herramienta es útil para gestionar problemas específicos y fragmentados donde se necesitan ideas frescas y novedosas.
           p.mb-4 
-            b La técnica de brainstorming tiene cuatro reglas principales: 
+            b La técnica de <em>brainstorming</em> tiene cuatro reglas principales: 
               
           .col-8.col-md-6.mb-4.mb-md-0.align-self-center
             figure
@@ -216,8 +216,8 @@
                 
       .py-4.py-md-5.px-md-5(titulo="Scamper" :icono="require('@/assets/curso/tema5/icon6.svg')" style="background-color: #EBF7FF")
         .row.justify-content-center
-          h4 Scamper
-          p.mb-5 Esta técnica de ideación, es utilizada para desarrollar o mejorar ideas, productos o servicios. El acrónimo Scamper se compone de las siguientes palabras.
+          h4 <em>Scamper</em>
+          p.mb-5 Esta técnica de ideación, es utilizada para desarrollar o mejorar ideas, productos o servicios. El acrónimo <em>Scamper</em> se compone de las siguientes palabras.
           .col-11.col-md-10.col-lg-7.mb-4.mb-md-0
               
             .tarjeta-avatar-b.mb-5

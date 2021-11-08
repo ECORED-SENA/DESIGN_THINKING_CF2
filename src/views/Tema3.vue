@@ -181,7 +181,7 @@
                   img.mx-auto(src='@/assets/curso/tema3/img3.svg', alt='' style='width: 500px')
                 figcaption Nota. Adaptada de Economipedia.com (2021).
               .col-lg-6.align-self-center
-                p.mb-4 Para la priorización del reto final, el cual pasaría a la fase de ideación del proceso Design Thinking, se pueden utilizar diferentes herramientas de convergencia y selección, ya sea por afinidad, factibilidad o viabilidad, que defina el equipo encargado del reto. 
+                p.mb-4 Para la priorización del reto final, el cual pasaría a la fase de ideación del proceso <em>Design Thinking</em>, se pueden utilizar diferentes herramientas de convergencia y selección, ya sea por afinidad, factibilidad o viabilidad, que defina el equipo encargado del reto. 
                 p.mb-4 Una de las herramientas utilizadas para este proceso, son las matrices, ubicando en los ejes horizontal y vertical, las características más importantes para el momento del desarrollo del reto.
                 p.mb-0 Dentro de las matrices se encuentra la matriz de Eisenhower, compuesta por cuatro cuadrantes que permiten identificar los aspectos urgentes/importantes, con el objetivo de simplificar las acciones y conseguir un enfoque rápido hacia los retos que se deben solucionar primero.
 

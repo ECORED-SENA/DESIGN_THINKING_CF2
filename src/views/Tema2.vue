@@ -163,8 +163,8 @@
               li 
                 i.fas.fa-check(style='color: #FF0092')
                 p.mb-0 
-                  b Técnica How might we?
-            p.mb-4 Otra manera de formular el reto puede ser iniciando con la expresión How might we? Que en español traduce ¿cómo podríamos…? Seguido del problema a solucionar y especificando el tipo del usuario para el cual se diseñará la solución. 
+                  b Técnica <em>How might we</em>?
+            p.mb-4 Otra manera de formular el reto puede ser iniciando con la expresión <em>How might we</em>? Que en español traduce ¿cómo podríamos…? Seguido del problema a solucionar y especificando el tipo del usuario para el cual se diseñará la solución. 
               
             .cajon.color-primario.p-4
               p.mb-0 La formulación del reto es un proceso iterativo, y que de entrada no se conseguirá el reto ideal, por eso se recomienda redactar el reto de maneras distintas hasta que se encuentre una con la cual sentirse cómodo, que emocione, inspire a ponerse en marcha y conecte a las personas con las oportunidades de solución.

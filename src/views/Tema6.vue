@@ -91,7 +91,7 @@
       .col-lg-6.align-self-center
         .row.justify-content-center
           .col-lg-11
-            p.mb-4 Las técnicas de visualización gráfica se refieren a las formas que existen para expresar, organizar y representar ideas o pensamientos y plasmarlas por medio de dibujos. De acuerdo con Larralde (2019) experta en Visual Thinking, el pensamiento visual supone la comprensión de una información mediante la visualización estructurada de sus partes. Es especialmente importante para quienes tienen desarrolladas las habilidades visuales teniendo en cuenta los distintos tipos de inteligencias y estilos de aprendizaje. 
+            p.mb-4 Las técnicas de visualización gráfica se refieren a las formas que existen para expresar, organizar y representar ideas o pensamientos y plasmarlas por medio de dibujos. De acuerdo con Larralde (2019) experta en <em>Visual Thinking</em>, el pensamiento visual supone la comprensión de una información mediante la visualización estructurada de sus partes. Es especialmente importante para quienes tienen desarrolladas las habilidades visuales teniendo en cuenta los distintos tipos de inteligencias y estilos de aprendizaje. 
             p.mb-0 Según varios estudios la información que vemos es retenida con mayor facilidad en comparación con la información que se transmite únicamente mediante el uso de la palabra. Algunos beneficios adicionales incluyen: 
 
     .row.justify-content-center.mb-5
@@ -167,7 +167,7 @@
             .col
               .row.justify-content-around.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.text-white Visual Thinking en educación
+                  h3.mb-1.text-white <em>Visual Thinking</em> en educación
                   p.text-white Para ampliar este tema se invita a ver el video Presentación “Visual Thinking en educación”, el cual se encuentra en el material complementario.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Bp85Qi7tN1M&list=PL7O-wFTtwWAY-RFH5ZLJuT1fvYHsyHHwe&index=1" target="_blank")

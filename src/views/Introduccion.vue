@@ -15,7 +15,7 @@
       
     .row.justify-content-center.mb-5
       .col-lg-11
-        h5 Recordemos las fases que componen la metodología del Design Thinking:
+        h5 Recordemos las fases que componen la metodología del <em>Design Thinking</em>:
 
     .row.justify-content-center.mb-4.fondo1
       .col-lg-12.px-md-5.mt-5
@@ -23,7 +23,7 @@
           .col-lg-10
             .titulo-sexto.color-acento-contenido
               h5 Figura 1
-              p.mb-0 Fases del <em>Desing Thinking</em>
+              p.mb-0 Fases del <em>Design Thinking</em>
         .row.justify-content-center.mb-5
           .col-lg-10
             figure(data-aos="fade-up" )

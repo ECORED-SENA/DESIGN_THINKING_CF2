@@ -31,7 +31,7 @@
               .tarjeta(style='background-color: #ffff')
                 .p-5
                   h2.mb-4.text-center Concepto
-                  p Esta fase se enfoca en procesos de convergencia, en los que se deben tomar decisiones importantes para determinar el enfoque que se le quiere dar al resto del proceso. El Design Thinking es un proceso iterativo que permite repensar en cada avance si se está tomando el camino correcto, permite la duda, la incertidumbre y preguntarse varias veces sobre temas específicos para derribar paradigmas o creencias preconcebidas.
+                  p Esta fase se enfoca en procesos de convergencia, en los que se deben tomar decisiones importantes para determinar el enfoque que se le quiere dar al resto del proceso. El <em>Design Thinking</em> es un proceso iterativo que permite repensar en cada avance si se está tomando el camino correcto, permite la duda, la incertidumbre y preguntarse varias veces sobre temas específicos para derribar paradigmas o creencias preconcebidas.
                 
           .col-md-5.col-lg-5.mb-5.mb-lg-4(data-aos='flip-left')
             .tarjeta-avatar
