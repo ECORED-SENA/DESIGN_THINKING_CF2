@@ -17,7 +17,7 @@
       .col-lg-11
         h5 Recordemos las fases que componen la metodología del <em>Design Thinking</em>:
 
-    .row.justify-content-center.mb-4.fondo1
+    .row.justify-content-center.mb-0.fondo1
       .col-lg-12.px-md-5.mt-5
         .row.justify-content-center.mb-4
           .col-lg-10
@@ -30,9 +30,12 @@
               img.mx-auto(src='@/assets/curso/img1.svg', alt='imagen ambiental', style='')
           
           
-    .row.justify-content-center
-      .col-lg-10
-        p.mb-0 Nota. Adaptada de www.deanizod.com (2021). 
+    .row.justify-content-center.fondo1
+      .col-lg-12.px-0(style='background-color: #e8e8e8')
+        .row.justify-content-center
+          .col-lg-10
+            .px-3.py-2
+              figcaption(style='font-size: 16px') Nota. Adaptada de www.deanizod.com (2021). 
         
     
 

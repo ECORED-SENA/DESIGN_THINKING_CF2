@@ -46,12 +46,18 @@
         .tarjeta-numerada.color-acento-contenido.p-5.pb-4.pt-4
           .tarjeta-numerada__numero
             .h2 4
-          p.mb-0 ASe orienta a expandir el pensamiento para buscar mayor cantidad de ideas.
+          p.mb-0 Se orienta a expandir el pensamiento para buscar mayor cantidad de ideas.
             
         .tarjeta-numerada.color-acento-contenido.p-5.pb-4.pt-4
           .tarjeta-numerada__numero
             .h2 5
-          p.mb-0 En este momento no importa tanto la calidad o viabilidad de las ideas. Busca salirse de lo tradicional, permitirse soñar.
+          p.mb-0 En este momento no importa tanto la calidad o viabilidad de las ideas.
+            
+        .tarjeta-numerada.color-acento-contenido.p-5.pb-4.pt-4
+          .tarjeta-numerada__numero
+            .h2 6
+          p.mb-0 Busca salirse de lo tradicional, permitirse soñar.
+            
             
       .col-8.col-lg-6.align-self-center
         figure
@@ -69,7 +75,7 @@
           p.mb-0.p-3(numero="1" titulo="Sesiones imaginativas") Comenzando con un espacio agradable, estas sesiones imaginativas buscan romper los esquemas dando paso a estímulos y emociones que permitan generar nuevas ideas.
           p.mb-0.p-3(numero="2" titulo="Construir con las manos") Herramientas como la plastilina, la arcilla y cualquier material que permita estimular el tacto y el pensamiento expansivo son importantes en esta etapa; el dibujo también se incluye en esta categoría de ideas por su gran poder visual y de detalle.
           p.mb-0.p-3(numero="3" titulo="Fragmentos") Esta herramienta consiste en dividir el problema en partes más pequeñas con el objetivo de abordar por segmentos para luego construir una solución completa.
-          p.mb-0.p-3(numero="4" titulo="Analogías/homologaciones/contradicciones") Consiste en buscar en otro ámbito, elementos de soluciones que puedan servir al problema actual, también es llamada la técnica del pensamiento forzado.
+          p.mb-0.p-3(numero="4" titulo="Analogías / homologaciones / contradicciones") Consiste en buscar en otro ámbito, elementos de soluciones que puedan servir al problema actual, también es llamada la técnica del pensamiento forzado.
 
 
 
@@ -104,10 +110,10 @@
     #t_5_2.titulo-segundo.color-acento-contenido
       .h2 5.2 Técnicas de generación de ideas
 
-    p.mb-4 Ahora, se exponen las técnicas de generación de ideas
+    p.mb-4 Ahora, se exponen las técnicas de generación de ideas.
     
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5.px-md-5(titulo="Plussing" :icono="require('@/assets/curso/tema5/icon2.svg')" style="background-color: #EBF7FF")
+      .py-4.py-md-5.px-md-5(titulo="<em>Plussing</em>" :icono="require('@/assets/curso/tema5/icon2.svg')" style="background-color: #EBF7FF")
         .row.justify-content-center
           h4 <em>Plussing</em>
           p Esta técnica consiste en trabajar con ideas previamente concebidas o generadas en otros procesos de creatividad, permite realizar una reunión con los demás miembros del equipo y mejorar la idea a través del sano debate y la crítica constructiva.
@@ -119,13 +125,13 @@
               p.mb-0 #[strong Tiempo: ] 1-2 horas como máximo.
             figure
               img.mb-3.mx-auto(src='@/assets/curso/tema5/img4.svg', alt='imagen ambiental')
-              figcaption(style='background-color: #fff') Nota. Adaptada de Allende (2021)
+              figcaption(style='background-color: #fff') Nota. Adaptada de Allende (2021).
             
           .col-8.col-md-5
             figure
               img.mx-auto(src='@/assets/curso/tema5/img5.svg', alt='imagen ambiental', style='width: 357px')
               
-      .py-4.py-md-5.px-md-5(titulo="Storytelling" :icono="require('@/assets/curso/tema5/icon3.svg')" style="background-color: #EBF7FF")
+      .py-4.py-md-5.px-md-5(titulo="<em>Storytelling</em>" :icono="require('@/assets/curso/tema5/icon3.svg')" style="background-color: #EBF7FF")
         .row
             
           .col-7.col-md-7.mb-4.mb-md-0
@@ -134,49 +140,49 @@
                 
           .col-md-5.align-self-center
             h4 <em>Storytelling</em>
-            p.mb-4 Consiste en contar historias en un contexto específico con elementos, personajes y ambiente seleccionados; la idea es construir una historia con su inicio, medio y fin con el objetivo de transmitir un mensaje con ideas al azar para iniciar los procesos de creatividad. Esta técnica, también es usada en las últimas fases para transmitir la idea de manera inspiradora al usuario final.
+            p.mb-4 Consiste en contar historias en un contexto específico con elementos, personajes y ambiente seleccionados; la idea es construir una historia con su inicio, medio y fin, con el objetivo de transmitir un mensaje con ideas al azar para iniciar los procesos de creatividad. Esta técnica, también es usada en las últimas fases para transmitir la idea de manera inspiradora al usuario final.
             .cajon.color-primario.p-4
               p.mb-1 #[strong Recursos: ] mensaje, ambiente, personajes.
               p.mb-0 #[strong Tiempo: ] 25 minutos como mínimo.
               
-      .py-4.py-md-5.px-md-5(titulo="Seis Sombreros" :icono="require('@/assets/curso/tema5/icon4.svg')" style="background-color: #EBF7FF")
-        .row.mb-5
+      .py-4.py-md-5.px-md-5(titulo="Seis sombreros" :icono="require('@/assets/curso/tema5/icon4.svg')" style="background-color: #EBF7FF")
+        .row.justify-content-center.mb-5.px-4.px-lg-0
           .col-md-6.mb-4.mb-md-0.align-self-center
-            h4.mb-4 Seis Sombreros para pensar
+            h4.mb-4 Seis sombreros para pensar
             .p-4(style='background-color: #B7E6E5')
               p.mb-0 Esta técnica, famosa en todo el mundo para generar procesos de creatividad, parte desde el concepto de que cada ser humano piensa normalmente desde una perspectiva específica. Se utilizan seis colores refiriéndose a seis tipos de pensamientos, los que, al ser asignados, indican al participante que tiene que cambiar su perspectiva frente al problema o reto.
             
-          .col-md-6
+          .col-8.col-md-6.align-self-center
             figure
               img(src='@/assets/curso/tema5/img7.svg', alt='imagen ambiental' style='width: 505px')
             
-        .row.justify-content-center.mb-4
+        .row.justify-content-center.mb-4.px-4.px-lg-0
           .col-md-6.mb-4.mb-md-0
             p.mb-4 #[strong Sombrero blanco: ] es un color neutro y pone al participante en una posición objetiva donde no hay juicios subjetivos ni emociones, solo datos y hechos verificables.
             p.mb-4 #[strong Sombrero rojo: ] este color transmite pasión y permite al participante expresar sus sentimientos de una manera más intuitiva hacia la solución.
             p.mb-0 #[strong Sombrero verde: ] al ser el color de las plantas, se asocia al pensamiento creativo y transmite crecimiento y sirve para generar ideas a las posibles problemáticas.
           .col-md-6
-            p.mb-4 #[strong Sombrero negro: ] un color oscuro que remite a los pensamientos cautelosos y críticos, este sombrero permite al participante estar alerta en todos los aspectos de la idea que pueden convertir se en un problema.
+            p.mb-4 #[strong Sombrero negro: ] un color oscuro que remite a los pensamientos cautelosos y críticos, este sombrero permite al participante estar alerta en todos los aspectos de la idea que pueden convertirse en un problema.
             p.mb-4 #[strong Sombrero amarillo: ] este color se asocia con el sol y la luz, permite al participante entrar en un estado de optimismo que permita encontrar ventajas y valores al planteamiento en cuestión.
             p.mb-0 #[strong Sombrero azul: ] un color que transmite control y serenidad, es denominado el sombrero esencial y el participante asignado con este color debe gestionar la dinámica del grupo para generar mejores resultados.
             
-        .row.justify-content-center
+        .row.justify-content-center.px-4.px-lg-0
           .cajon.color-primario.p-4
             p.mb-1 #[strong Recursos: ] equipo de trabajo, idea o planteamiento, sombreros o elementos que simbolicen sus características.
             p.mb-0 #[strong Tiempo: ] 1 hora aproximadamente.
               
-      .py-4.py-md-5.px-md-5(titulo="Brainstorming" :icono="require('@/assets/curso/tema5/icon5.svg')" style="background-color: #EBF7FF")
-        .row.justify-content-center
+      .py-4.py-md-5.px-md-5(titulo="<em>Brainstorming</em>" :icono="require('@/assets/curso/tema5/icon5.svg')" style="background-color: #EBF7FF")
+        .row.justify-content-center.px-4.px-lg-0
           h4 <em>Brainstorming</em>
           p.mb-4 Es la técnica más utilizada para los procesos de ideación y es también llamada lluvia de ideas, su objetivo principal es llevar al grupo a romper las limitaciones comunes del pensamiento y producir gran cantidad de ideas de las que pueden escoger después, esta herramienta es útil para gestionar problemas específicos y fragmentados donde se necesitan ideas frescas y novedosas.
           p.mb-4 
             b La técnica de <em>brainstorming</em> tiene cuatro reglas principales: 
               
-          .col-8.col-md-6.mb-4.mb-md-0.align-self-center
+          .col-7.col-lg-6.mb-4.mb-lg-0.align-self-center
             figure
               img.mx-auto(src='@/assets/curso/tema5/img8.svg', alt='imagen ambiental', style='width: 336px')
             
-          .col-md-6
+          .col-lg-6
               .row.justify-content-center.mb-3
                 .col-auto
                   figure
@@ -191,7 +197,7 @@
                     img.mx-auto(src='@/assets/curso/tema5/num2.svg', alt='imagen ambiental' style='width: 54px')
                   
                 .col.align-self-center
-                  p.mb-0 #[strong Pensar fuera de la caja: ] el imaginar nuevas posibilidades sin juzgar si son viables o no permite crear un ambiente de familiaridad donde surgen mejores ideas.
+                  p.mb-0 #[strong Pensar fuera de la caja: ] el imaginar nuevas posibilidades sin juzgar si son viables o no, permite crear un ambiente de familiaridad donde surgen mejores ideas.
                   
               .row.justify-content-center.mb-3
                 .col-auto
@@ -214,13 +220,13 @@
                 p.mb-0 #[strong Tiempo: ] desde 30 minutos a 1 hora aproximadamente.
                 
                 
-      .py-4.py-md-5.px-md-5(titulo="Scamper" :icono="require('@/assets/curso/tema5/icon6.svg')" style="background-color: #EBF7FF")
-        .row.justify-content-center
+      .py-4.py-md-5.px-md-5(titulo="<em>Scamper</em>" :icono="require('@/assets/curso/tema5/icon6.svg')" style="background-color: #EBF7FF")
+        .row.justify-content-center.px-4.px-lg-0
           h4 <em>Scamper</em>
-          p.mb-5 Esta técnica de ideación, es utilizada para desarrollar o mejorar ideas, productos o servicios. El acrónimo <em>Scamper</em> se compone de las siguientes palabras.
+          p.mb-5 Esta técnica de ideación, es utilizada para desarrollar o mejorar ideas, productos o servicios. El acrónimo <em>Scamper</em> se compone de las siguientes palabras:
           .col-11.col-md-10.col-lg-7.mb-4.mb-md-0
               
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra1.svg' alt='AvatarTop')
               .tarjeta.color-primario.align-self-center(style="border-radius: 0")
@@ -229,7 +235,7 @@
                   p.mb-1.text-white ¿Qué podemos reemplazar? 
                   p.mb-0.text-white Ejemplo: materiales, componente, colores, formas, usos.
                     
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra2.svg' alt='AvatarTop')
               .tarjeta.color-acento-contenido.align-self-center(style="border-radius: 0")
@@ -238,7 +244,7 @@
                   p.text-white.mb-1 ¿Qué características podemos combinar o fusionar?
                   p.text-white.mb-0 Ejemplo: particularidades, propiedades.
                     
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra3.svg' alt='AvatarTop')
               .tarjeta.color-secundario.align-self-center(style="border-radius: 0")
@@ -247,7 +253,7 @@
                   p.mb-1(style="color: #12263f") ¿Qué podemos añadir o agregar?
                   p.mb-0(style="color: #12263f") Ejemplo: nuevos elementos o funcionalidades. 
                     
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra4.svg' alt='AvatarTop')
               .tarjeta.color-primario.align-self-center(style="border-radius: 0")
@@ -256,7 +262,7 @@
                   p.mb-1.text-white ¿Qué podemos cambiar? 
                   p.mb-0.text-white Ejemplo: tamaño, funciones.
                     
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra5.svg' alt='AvatarTop')
               .tarjeta.color-acento-contenido.align-self-center(style="border-radius: 0")
@@ -265,7 +271,7 @@
                   p.mb-1.text-white ¿En qué otro contexto lo puedo usar?
                   p.mb-0.text-white Ejemplo: usos en diferentes contextos y con diferentes usuarios.
               
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra6.svg' alt='AvatarTop')
               .tarjeta.color-secundario.align-self-center(style="border-radius: 0")
@@ -274,7 +280,7 @@
                   p.mb-1(style="color: #12263f") ¿Qué puedo eliminar o simplificar?
                   p.mb-0(style="color: #12263f") Ejemplo: quitar elementos o componentes.
                     
-            .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema5/letra7.svg' alt='AvatarTop')
               .tarjeta.color-primario.align-self-center(style="border-radius: 0")
@@ -283,7 +289,9 @@
                   p.mb-1.text-white ¿Qué puedo cambiar de orden para obtener nuevos resultados? 
                   p.mb-0.text-white Ejemplo: invertir componentes o procesos.
               
-          
+            .cajon.color-primario.p-4
+                p.mb-1 #[strong Recursos: ] equipo de trabajo, reto, notas adhesivas, esferos, papel.
+                p.mb-0 #[strong Tiempo: ] desde 30 minutos a 1 hora aproximadamente.
 
 
 

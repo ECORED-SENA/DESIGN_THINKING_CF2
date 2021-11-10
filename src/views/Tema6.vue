@@ -43,15 +43,16 @@
     #t_6_1.titulo-segundo.color-acento-contenido
       .h2 6.1 Técnicas de selección 
     
-    
+    p.mb-5 Las técnicas de selección utilizadas, son:
+      
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
         
       .row.justify-content-center(titulo="Análisis ABC")
-        .col-md-5.mb-4.mb-md-0
-          p.mb-4 Este análisis consiste en separar las ideas por sus características frente al proyecto a abordar, así: las ideas tipo A son las que se consideran absolutamente necesarias para el proceso, las ideas B son aquellas sobre las que el equipo no está seguro de sus beneficios y, por ende, siguen en el proceso, por último, las tipo C son las ideas que para el momento del proyecto no generan valor y deben ser descartadas, obligando al equipo a realizar renuncias tempranas y rápidas.
+        .col-lg-5.mb-4.mb-lg-0
+          p.mb-4 Este análisis consiste en separar las ideas por sus características frente al proyecto a abordar, así: las ideas tipo A son las que se consideran absolutamente necesarias para el proceso, las ideas B son aquellas sobre las que el equipo no está seguro de sus beneficios y, por ende, siguen en el proceso. Por último, las tipo C son las ideas que para el momento del proyecto no generan valor y deben ser descartadas, obligando al equipo a realizar renuncias tempranas y rápidas.
           p.mb-0 Esta clasificación puede ser realizada individualmente por cada miembro del equipo y luego ser agregada a la clasificación general, lo que permite que la selección individual se realice sin sesgo a las opiniones.
       
-        .col-10.col-md-5.align-self-center
+        .col-10.col-lg-5.align-self-center
           figure
             img.mx-auto(src='@/assets/curso/tema6/img3.png', alt='imagen ambiental' style=" width: 535px;")
             
@@ -67,11 +68,12 @@
       .row.justify-content-center(titulo="Cuadrante de Gartner")
         .col-md-6.mb-4.mb-md-0.align-self-center
           p.mb-4 Esta herramienta permite clasificar y entender en qué punto o nivel de desarrollo están las ideas. Es una herramienta muy utilizada para conocer el grado de innovación de las empresas involucradas en innovación y tecnología; consiste en clasificar las ideas resultantes en cuatro cuadrantes divididos por los siguientes ejes: 
-          p.mb-0 Eje factible, se cuentan con los recursos (económicos, humanos, infraestructura) para solucionar el reto. Eje estratégico, donde se priorizan las ideas que estén más alineadas con los objetivos del proyecto y del usuario.
+          p Eje factible, se cuentan con los recursos (económicos, humanos, infraestructura) para solucionar el reto. 
+          p.mb-0 Eje estratégico, donde se priorizan las ideas que estén más alineadas con los objetivos del proyecto y del usuario.
 
         .col-md-6.align-self-center
           figure
-            img.mx-auto(src='@/assets/curso/tema6/img5.png', alt='imagen ambiental' style=" width: 535px;")
+            img.mx-auto(src='@/assets/curso/tema6/img5.svg', alt='imagen ambiental' style=" width: 535px;")
             
               
           
@@ -169,7 +171,9 @@
               .row.justify-content-around.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white <em>Visual Thinking</em> en educación
-                  p.text-white Para ampliar este tema se invita a ver el video Presentación “Visual Thinking en educación”, el cual se encuentra en el material complementario.
+                  p.text-white Para ampliar este tema se invita a ver el video 
+                    b Presentación “Visual Thinking en educación”, 
+                    b-none el cual se encuentra en el material complementario.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Bp85Qi7tN1M&list=PL7O-wFTtwWAY-RFH5ZLJuT1fvYHsyHHwe&index=1" target="_blank")
                     span(style='color: #12263F') Ver más

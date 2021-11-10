@@ -142,66 +142,64 @@ export default {
   referencias: [
     {
       referencia:
-        'Alba, A. (2017). <em>Cómo lanzar retos de innovación que enganchen.</em> Innolandia. ',
+        'Alba, A. (2017). Cómo lanzar retos de innovación que enganchen. Innolandia.',
       link: 'https://innolandia.es/lanzar-retos-innovacion-enganchen/',
     },
     {
       referencia:
-        'Allende. (2021). <em>Técnica de creatividad plussing para generar</em> ideas. ',
+        'Allende. (2021). Técnica de creatividad <em>plussing</em> para generar ideas.',
       link:
         'https://www.creatividad.cloud/plussing-una-tecnica-para-mejorar-las-ideas-de-forma-colaborativa/',
     },
     {
       referencia:
         //'<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-        'Carrera, A. (2019). <em>Pensamiento divergente y convergente.</em> Human Centric. ',
+        'Carrera, A. (2019). Pensamiento divergente y convergente. <em>Human Centric.</em>',
       link: 'https://humancentric.es/pensamiento-divergente-y-convergente/',
     },
     {
       referencia:
-        'Clos, I. (2016). <em>Todo lo que necesitas saber sobre los retos de innovación, elemento clave del design thinking</em> Sociedad de la Innovación.',
+        'Clos, I. (2016). <em>Todo lo que necesitas saber sobre los retos de innovación, elemento clave del design thinking.</em> Sociedad de la Innovación.',
       link:
         'https://www.sociedaddelainnovacion.es/retos-innovacion-design-thinking/',
     },
     {
       referencia:
-        'Deanizod.com. (2021). <em>Design Thinking Process.</em> [Fotografía]. ',
+        'Deanizod.com. (2021). <em>Design Thinking Process.</em> [Fotografía].',
       link: 'https://www.deanizod.com/portfolio/design-thinking-process/',
     },
     {
-      referencia: 'Economipedia.com (2021). <em>Matriz de Eisenhower.</em> ',
+      referencia: 'Economipedia.com (2021). Matriz de Eisenhower.',
       link:
         'https://economipedia.com/wp-content/uploads/MATRIZ-DE-EISENHOWER-768x768.jpg',
     },
     {
       referencia:
-        'Intef. (2017). <em>Presentación Visual Thinking en educación.</em> [Video]. YouTube.',
+        'Intef. (2017). Presentación <em>Visual Thinking</em> en educación. [Video]. YouTube.',
       link:
         'https://www.youtube.com/watch?v=Bp85Qi7tN1M&list=PL7O-wFTtwWAY-RFH5ZLJuT1fvYHsyHHwe&index=1',
     },
     {
-      referencia:
-        'Ipmo Guide. (2019).<em> Qué es el cuadrante mágico de Gartner.</em> [Video]. YouTube.',
+      referencia: 'Ipmo Guide. (2019). Qué es el cuadrante mágico de Gartner.',
       link: 'https://ipmoguide.com/que-es-el-cuadrante-magico-de-gartner/',
     },
     {
-      referencia: 'Larralde, G. (2019). <em>¿Qué es el visual thinking?</em>',
+      referencia: 'Larralde, G. (2019).¿Qué es el  <em>visual thinking?</em>',
       link: 'https://enredarteayudaaprender.blogspot.com/',
     },
     {
       referencia:
-        'Mosquera, G., I. (2018). <em>Visual thinking:</em> dibujando el aprendizaje. UNIR. ',
+        'Mosquera, G., I. (2018). <em>Visual thinking:</em> dibujando el aprendizaje. UNIR.',
       link:
         'https://www.unir.net/educacion/revista/visual-thinking-dibujando-el-aprendizaje/',
     },
     {
-      referencia:
-        'RAE. (2020). <em>Diccionario de la lengua española</em> RAE - Asale. ',
+      referencia: 'RAE. (2020). Diccionario de la lengua española RAE - Asale.',
       link: 'https://dle.rae.es/reto',
     },
     {
       referencia:
-        'Significados. (2013). <em>Significado de creatividad.</em> Significados. ',
+        'Significados. (2013). Significado de creatividad. Significados.',
       link: 'https://www.significados.com/creatividad/',
     },
   ],
@@ -222,7 +220,8 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Intef. (2017). Presentación Visual Thinking en educación.',
+      texto:
+        'Intef. (2017). <em>Presentación Visual Thinking en educación.</em> [Video]. YouTube. ',
       tipo: 'Video',
       link:
         'https://youtu.be/Bp85Qi7tN1M?list=PL7O-wFTtwWAY-RFH5ZLJuT1fvYHsyHHwe',
@@ -245,7 +244,7 @@ export default {
       },
       {
         nombre: 'Cristina Zuluaga Penagos',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro: 'Centro Tecnológico del Mobiliario - Regional Antioquia',
       },
       {
@@ -255,12 +254,18 @@ export default {
       },
       {
         nombre: 'Luz Aída Quintero Velásquez',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Revisora Metodológica y Pedagógica',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
@@ -284,6 +289,17 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      /*{
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },*/
+      {
         nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo front-end',
         centro:
@@ -296,17 +312,11 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Zuleidy María Ruiz Torres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      /*{
-        nombre: '',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

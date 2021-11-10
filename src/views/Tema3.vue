@@ -15,7 +15,7 @@
         .cajon.color-primario.p-4
           p.mb-4 
             b ¿Cómo saber si se tiene un buen reto de innovación?
-          p.mb-0 Para saber si se cuenta con un buen reto de innovación, se puede aplicar el siguiente checklist:
+          p.mb-0 Para saber si se cuenta con un buen reto de innovación, se puede aplicar el siguiente <em>checklist:</em>
       .col-8.col-lg-6
         figure
           img.mx-auto(src='@/assets/curso/tema3/img1.svg', alt='' style='width: 610px')
@@ -24,88 +24,98 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
-          p.mb-0 <em>Lista de chequeo reto de innovación</em>
+          p.mb-0 Lista de chequeo reto de innovación
         
         .tabla-b.color-primario
           .tabla-b__header
             h4.mb-0 Lista de chequeo - reto de innovación
           table
             
-            tr.text-center
+            tr.text-center(style='border-bottom: 1px solid #e8e8e8')
               th(style='width: 10%')
               th(style='width: 60%; font-size:16px') Característica
               th(style='font-size:16px') Cumple
-              th(style='font-size:16px') No cumple
-            tr
+              th(style='font-size:16px; border-right: 0') No cumple
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 1
               th 
                 p.mb-0(style= "font-size: 16px") Incluye al usuario final y su necesidad.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 2
               th
                 p.mb-0(style= "font-size: 16px") Es inspirador y anima a ponerse en marcha.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 3
               th
                 p.mb-0(style= "font-size: 16px") Es importante para el usuario y la organizaci&oacute;n.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 4
               th
                 p.mb-0(style= "font-size: 16px") Es claro para los diferentes perfiles de solucionadores.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 5
               th
                 p.mb-0(style= "font-size: 16px") Ni muy abstracto ni muy concreto.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 6
               th
                 p.mb-0(style= "font-size: 16px") No menciona soluciones.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 7
               th
                 p.mb-0(style= "font-size: 16px") Plantea un problema o una necesidad.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 8
               th
                 p.mb-0(style= "font-size: 16px") Beneficios de resolver el reto son mayores a sus costos de implementaci&oacute;n.
               th
-              th
-            tr
+              td
+              
+            tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 9
               th
                 p.mb-0(style= "font-size: 16px") Est&aacute; alineado con los objetivos/valores de la organizaci&oacute;n.
               th
-              th
+              td
+              
             tr(style='border-bottom: 1px solid #e8e8e8')
               th
                 h4.mb-0 10
               th
                 p.mb-0(style= "font-size: 16px") Se tienen los recursos, capacidades, habilidades y competencias.
               th
-              th
+              td
         
     .row.justify-content-center.fondo-diagonal
       .col-lg-12.px-md-5
@@ -169,6 +179,10 @@
           li 
             i.fas.fa-check(style='color: #FF0092')
             h4.mb-0 Priorización del reto final
+            
+        .titulo-sexto.color-acento-contenido.py-0
+          h5 Figura 4
+          p.mb-0 Matriz de Eisenhower
             
         .row.justify-content-center
           .col-lg-11.ps-md-0

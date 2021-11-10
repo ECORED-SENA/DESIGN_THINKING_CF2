@@ -81,12 +81,12 @@
           .col-lg-11
             .titulo-sexto.color-acento-contenido
               h5 Figura 2
-              p.mb-0 <em>Retos de innovación</em>
+              p.mb-0 Retos de innovación
           
         .row.justify-content-center.mb-5
           .col-auto
             figure
-              img.mx-auto(src='@/assets/curso/tema2/img4.svg' alt='AvatarTop' style='')
+              img.mx-auto(src='@/assets/curso/tema2/img4.svg' alt='Retos de innovación' style='')
               
       figcaption.px-5 Nota. Adaptada de Clos (2016).
 
@@ -114,7 +114,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 3
-          p.mb-0 <em>Estructura gramatical de un reto de innovación</em>
+          p.mb-0 Estructura gramatical de un reto de innovación
 
     .row.justify-content-center.fondo-figuras.mb-0
       .col-lg-10
@@ -164,7 +164,7 @@
                 i.fas.fa-check(style='color: #FF0092')
                 p.mb-0 
                   b Técnica <em>How might we</em>?
-            p.mb-4 Otra manera de formular el reto puede ser iniciando con la expresión <em>How might we</em>? Que en español traduce ¿cómo podríamos…? Seguido del problema a solucionar y especificando el tipo del usuario para el cual se diseñará la solución. 
+            p.mb-4 Otra manera de formular el reto puede ser iniciando con la expresión <em>How might we</em>? Que en español traduce ¿cómo podríamos…? Seguido del problema a solucionar y especificando el tipo de usuario para el cual se diseñará la solución. 
               
             .cajon.color-primario.p-4
               p.mb-0 La formulación del reto es un proceso iterativo, y que de entrada no se conseguirá el reto ideal, por eso se recomienda redactar el reto de maneras distintas hasta que se encuentre una con la cual sentirse cómodo, que emocione, inspire a ponerse en marcha y conecte a las personas con las oportunidades de solución.
@@ -182,7 +182,7 @@
                   b ¿Cómo encontrar retos de innovación?
             
             p.mb-4 Las técnicas mencionadas anteriormente se aplican cuando la organización tiene previamente identificadas unas problemáticas puntuales, sin embargo, surge la duda de cómo y dónde se pueden encontrar retos de innovación. 
-            p.mb-0 En la siguiente figura se enlistan varias fuentes donde se pueden encontrar retos de innovación que involucran al usuario, la competencia, el mercado, las nuevas tendencias tecnológicas o de consumidor o la detección de oportunidades dentro de la misma organización 
+            p.mb-0 En la siguiente figura se enlistan varias fuentes donde se pueden encontrar retos de innovación que involucran al usuario, la competencia, el mercado, las nuevas tendencias tecnológicas o de consumidor o la detección de oportunidades dentro de la misma organización.
             
         .row.justify-content-center.mb-5
           .col-auto(data-aos='fade-up')
@@ -194,85 +194,83 @@
               .tarjeta.tarjeta--gris.p-3(x="47.5%" y="10%" numero="" style='border-radius: 0; background-color: #ffff')
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Económicas
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Económicas.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Funcionales
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Funcionales.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Sociales
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Sociales.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Emocionales
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Emocionales.
                   
                   
               .tarjeta.tarjeta--gris.p-3(x="14%" y="50%" numero="" style='border-radius: 0; background-color: #ffff')
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Envejecimiento de Sociedad
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Envejecimiento de la sociedad.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Robotización del Trabajo
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Robotización del trabajo.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Cambio Climático
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Cambio climático.
                 
               .tarjeta.tarjeta--gris.p-3(x="82%" y="50%" numero="" style='border-radius: 0; background-color: #ffff')
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Competidores  
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Competidores.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0  Nuevas tecnologías
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0  Nuevas tecnologías.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Nuevas Leyes 
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Nuevas leyes.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Cambios en expectativas de clientes y usuarios
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Cambios de expectativas de clientes y usuarios.
                 
               .tarjeta.tarjeta--gris.p-3(x="20%" y="87%" numero="" style='border-radius: 0; background-color: #ffff')
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Aplicaciones Móviles 
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Aplicaciones móviles.
+                  li .
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Economía colaborativa.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Economía Colaborativa
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Digitalización.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Digitalización
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Economía de emociones.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Economía de Emociones
-                  li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Simplicidad y Significado
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Simplicidad y significado.
                 
                 
               .tarjeta.tarjeta--gris.p-3(x="75%" y="87%" numero="" style='border-radius: 0; background-color: #ffff')
                 ul.lista-ul
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Objetivos estratégicos     
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Objetivos estratégicos.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Quejas de usuarios
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Quejas de usuarios.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Identificar oportunidades de mejora internas
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Identificar oportunidades de mejora internas.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Recursos infrautilizados
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Recursos infrautilizados.
                   li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 Proyectos innovadores de otras organizaciones
-                  li 
-                    i.fas.fa-angle-right(style='color: #FF0092')
-                    p.mb-0 similares a la nuestra
+                    i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
+                    p.mb-0 Proyectos innovadores de otras organizaciones similares a la nuestra.
+                  
                 
                 
         figcaption Nota. Adaptada de Clos (2016).
