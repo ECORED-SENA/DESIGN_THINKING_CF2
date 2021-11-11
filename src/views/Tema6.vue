@@ -73,8 +73,8 @@
 
         .col-md-6.align-self-center
           figure
-            img.mx-auto(src='@/assets/curso/tema6/img5.svg', alt='imagen ambiental' style=" width: 535px;")
-            
+            img.mx-auto(src='@/assets/curso/tema6/img5.svg', alt='imagen ambiental' style=" width: 610px;")
+            figcaption Nota. Tomada de Ipmo Guide (2019)
               
           
           

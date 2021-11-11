@@ -159,13 +159,13 @@ export default {
     },
     {
       referencia:
-        'Clos, I. (2016). <em>Todo lo que necesitas saber sobre los retos de innovación, elemento clave del design thinking.</em> Sociedad de la Innovación.',
+        'Clos, I. (2016). Todo lo que necesitas saber sobre los retos de innovación, elemento clave del <em>design thinking. </em>Sociedad de la Innovación. ',
       link:
         'https://www.sociedaddelainnovacion.es/retos-innovacion-design-thinking/',
     },
     {
       referencia:
-        'Deanizod.com. (2021). <em>Design Thinking Process.</em> [Fotografía].',
+        'Deanizod.com. (2021). <em>Design Thinking Process.</em> [Fotografía]. ',
       link: 'https://www.deanizod.com/portfolio/design-thinking-process/',
     },
     {
@@ -175,31 +175,31 @@ export default {
     },
     {
       referencia:
-        'Intef. (2017). Presentación <em>Visual Thinking</em> en educación. [Video]. YouTube.',
+        'Intef. (2017). Presentación <em>Visual Thinking</em> en educación. [Video]. YouTube. ',
       link:
         'https://www.youtube.com/watch?v=Bp85Qi7tN1M&list=PL7O-wFTtwWAY-RFH5ZLJuT1fvYHsyHHwe&index=1',
     },
     {
-      referencia: 'Ipmo Guide. (2019). Qué es el cuadrante mágico de Gartner.',
+      referencia: 'Ipmo Guide. (2019). Qué es el cuadrante mágico de Gartner. ',
       link: 'https://ipmoguide.com/que-es-el-cuadrante-magico-de-gartner/',
     },
     {
-      referencia: 'Larralde, G. (2019).¿Qué es el  <em>visual thinking?</em>',
+      referencia: 'Larralde, G. (2019).¿Qué es el <em>visual thinking?</em>',
       link: 'https://enredarteayudaaprender.blogspot.com/',
     },
     {
       referencia:
-        'Mosquera, G., I. (2018). <em>Visual thinking:</em> dibujando el aprendizaje. UNIR.',
+        'Mosquera, G., I. (2018).<em> Visual thinking: </em>dibujando el aprendizaje. UNIR. ',
       link:
         'https://www.unir.net/educacion/revista/visual-thinking-dibujando-el-aprendizaje/',
     },
     {
-      referencia: 'RAE. (2020). Diccionario de la lengua española RAE - Asale.',
+      referencia: 'RAE. (2020). Diccionario de la lengua española RAE - ASALE.',
       link: 'https://dle.rae.es/reto',
     },
     {
       referencia:
-        'Significados. (2013). Significado de creatividad. Significados.',
+        'Significados. (2013). Significado de creatividad. Significados. ',
       link: 'https://www.significados.com/creatividad/',
     },
   ],
@@ -293,12 +293,48 @@ export default {
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
-      /*{
-        nombre: '',
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
       {
         nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo front-end',
