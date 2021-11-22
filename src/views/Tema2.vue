@@ -239,7 +239,7 @@
                   li 
                     i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
                     p.mb-0 Aplicaciones móviles.
-                  li .
+                  li 
                     i.fas.fa-circle(style='font-size: 11px; color: #FF0092')
                     p.mb-0 Economía colaborativa.
                   li 
